@@ -53,13 +53,17 @@ class LoginController
 
         try {
             // Validación del usuario
-            $usuario = new Usuario([$_POST]);
+            $usuario = new Usuario([
+                "usu_catalogo" => $usu_catalogo,
+                "usu_password" => $usu_password
+            ]);
             // echo json_encode($usuario);
-            // exit;
+        
             if ($usuario->validarUsuarioExistente()) {
                 $usuarioBD = $usuario->getUsuarioExistente();
 
                 // Verificación de la contraseña
+
                 if (password_verify($usu_password, $usuarioBD['usu_password'])) {
                     session_start();
                     $_SESSION['user'] = $usuarioBD;
