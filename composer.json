@@ -1,6 +1,6 @@
 {
     "name": "mindef/demo",
-    "description": "Proyecto MVC-02-2024",
+    "description": "Proyecto MVC-2",
     "type": "project",
     "config": {
         "platform-check": false,

@@ -17,7 +17,7 @@ function s($html) {
 function isAuth() {
     session_start();
     if(!isset($_SESSION['login'])) {
-        header('Location: /');
+        header('Location: /MVC-2/'); //AGREGAR RUTA
     }
 }
 function isAuthApi() {
@@ -36,7 +36,7 @@ function isAuthApi() {
 function isNotAuth(){
     session_start();
     if(isset($_SESSION['auth'])) {
-        header('Location: /auth/');
+        header('Location: /auth/login'); //GREGAMOS LOGIN(SI NO ENCUTRA ADMINISTRADOR REGRESA AL LOGIN)
     }
 }
 
@@ -51,7 +51,7 @@ function hasPermission(array $permisos){
     }
 
     if(array_search(true, $comprobaciones) !== false){}else{
-        header('Location: /');
+        header('Location: /MVC-2/logout'); //AGREGAMOS RUTA Y LOGOUT
     }
 }
 

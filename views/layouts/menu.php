@@ -18,7 +18,7 @@
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <a class="navbar-brand" href="/MVC-2-2024/">
+            <a class="navbar-brand" href="/MVC-2/">
                 <img src="<?= asset('./images/recr.png') ?>" width="45px'" alt="cit">
                 Tienda
             </a>
@@ -26,7 +26,7 @@
 
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="margin: 0;">
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="/MVC-2-2024/"><i class="bi bi-house-fill me-2"></i>Inicio</a>
+                        <a class="nav-link" aria-current="page" href="/MVC-2/"><i class="bi bi-house-fill me-2"></i>Inicio</a>
                     </li>
 
                     <div class="nav-item dropdown ">
@@ -36,7 +36,7 @@
                         <ul class="dropdown-menu  dropdown-menu-dark " id="dropwdownRevision" style="margin: 0;">
                             <!-- <h6 class="dropdown-header">Información</h6> -->
                             <li>
-                                <a class="dropdown-item  text-white " href="/MVC-2-2024/productos"><i class="ms-lg-0 ms-2 bi bi-plus-circle me-2"></i>Productos</a>
+                                <a class="dropdown-item  text-white " href="/MVC-2/productos"><i class="ms-lg-0 ms-2 bi bi-plus-circle me-2"></i>Productos</a>
                             </li>
                         </ul>
                     </div>
@@ -46,16 +46,16 @@
                         </a>
                         <ul class="dropdown-menu dropdown-menu-dark" id="dropdownRevision" style="margin: 0;">
                             <li>
-                                <a class="dropdown-item text-white" href="/MVC-2-2024/aplicacion"><i class="bi bi-app-indicator"></i></i> Aplicaciones</a>
+                                <a class="dropdown-item text-white" href="/MVC-2/aplicacion"><i class="bi bi-app-indicator"></i></i> Aplicaciones</a>
                             </li>
                             <li>
-                                <a class="dropdown-item text-white" href="/MVC-2-2024/rol"><i class="bi bi-toggles2"></i> Roles</a>
+                                <a class="dropdown-item text-white" href="/MVC-2/rol"><i class="bi bi-toggles2"></i> Roles</a>
                             </li>
                             <li>
-                                <a class="dropdown-item text-white" href="/MVC-2-2024/permiso"><i class="bi bi-person-check-fill"></i>  Permisos</a>
+                                <a class="dropdown-item text-white" href="/MVC-2/permiso"><i class="bi bi-person-check-fill"></i>  Permisos</a>
                             </li>
                             <li>
-                                <a class="dropdown-item text-white" href="/MVC-2-2024/usuarios"><i class="bi bi-person-fill-add"></i>  Usuarios</a>
+                                <a class="dropdown-item text-white" href="/MVC-2/usuarios"><i class="bi bi-person-fill-add"></i>  Usuarios</a>
                             </li>
                         </ul>
                     </div>
@@ -63,7 +63,7 @@
                 </ul>
                 <div class="col-lg-1 d-grid mb-lg-0 mb-2">
                     <!-- Ruta relativa desde el archivo donde se incluye menu.php -->
-                    <a href="/MVC-2-2024/" class="btn btn-success bg-gradient"><i class="bi bi-arrow-bar-left"></i></a>
+                    <a href="/MVC-2/" class="btn btn-success bg-gradient"><i class="bi bi-arrow-bar-left"></i></a>
                 </div>
 
 
